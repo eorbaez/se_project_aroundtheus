@@ -22,11 +22,14 @@
     display: flex;
     flex-direction: column;
     list-style: none;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .card__image {
     width: 282px;
     height: 282px;
+    object-fit: cover;
 }
 
 .card__description {
@@ -42,7 +45,14 @@
 }
 
 .card__like-button {
-    background: transparent url(../images/like-unactive\ .svg) center no-repeat;
+    border: 2px solid black;
+    background: transparent url(../images/like-unactive.jpg) center no-repeat;
     width: 21px;
     height: 18px;
+    border: none; 
+    cursor: pointer; 
+}
+
+.card__like-button:hover {
+    background-image: url(../images/like-active.svg);
 }

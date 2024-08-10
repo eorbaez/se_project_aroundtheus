@@ -13,17 +13,31 @@
 }
 
 .profile__edit-button {
+    border: 1px solid #fff; 
+    cursor: pointer;
     background: transparent url(../images/edit-icon.svg) center no-repeat;
     height: 24px;
     width: 24px;
     grid-area: button;
 }
 
+.profile__edit-button:hover {
+    background-image: url(../images/edit-icon-hover.svg); 
+    border-color: #ccc; 
+}
+
 .profile__add-button {
+    border: 2px solid #fff;
+    cursor: pointer;
     background: transparent url(..//images/add-icon.svg) center no-repeat;
     width: 150px;
     height: 50px;
     margin-left: auto;
+}
+
+.profile__add-button:hover {
+    background-image: url(../images/add-icon-hover.svg);
+    border-color: #ccc; 
 }
 
 .profile__title {
