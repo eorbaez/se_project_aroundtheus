@@ -9,7 +9,7 @@
     margin: 0;
 }
 
-.card__list {
+.cards__list {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, 282px);
@@ -55,4 +55,5 @@
 
 .card__like-button:hover {
     background-image: url(../images/like-active.svg);
+    opacity: 0.5;
 }
