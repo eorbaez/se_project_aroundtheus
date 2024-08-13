@@ -22,7 +22,6 @@
 }
 
 .profile__edit-button:hover {
-    background-image: url(../images/edit-icon-hover.svg);
     opacity: 0.6;  
 }
 
@@ -36,7 +35,6 @@
 }
 
 .profile__add-button:hover {
-    background-image: url(../images/add-icon-hover.svg);
     opacity: 0.6; 
 }
 

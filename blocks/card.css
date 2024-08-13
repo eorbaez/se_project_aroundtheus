@@ -46,7 +46,7 @@
 
 .card__like-button {
     border: 2px solid black;
-    background: transparent url(../images/like-unactive.jpg) center no-repeat;
+    background: transparent url(../images/like-unactive.svg) center no-repeat;
     width: 21px;
     height: 18px;
     border: none; 
@@ -54,6 +54,5 @@
 }
 
 .card__like-button:hover {
-    background-image: url(../images/like-active.svg);
     opacity: 0.5;
 }
